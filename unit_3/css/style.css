@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+	background: url("images/homepage.jpg");
+	background-size: cover;
+	color: #5354E8;
+	font-family: Helvetica;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+}
