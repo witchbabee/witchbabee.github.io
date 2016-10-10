@@ -2,14 +2,14 @@
 	
 html { 
 	background-image: url("../images/homepage.jpg");
+	background-size: cover;
 }
 
 h1 {
 	font-family: 'Bungee Shade', cursive;
 	font-size: 100px;
 	text-align: center;
-	background: url("../images/homepage.jpg");
-	background-size: cover;
+	background: background-size: cover;
 }
 p {
 	font-family: 'Cormorant Garamond', serif;
