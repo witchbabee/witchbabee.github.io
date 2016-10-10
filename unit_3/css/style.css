@@ -2,21 +2,24 @@
 
 h1 {
 	font-family: 'Bungee Shade', cursive;
-	font-size: 30px;
-}
-p {
-	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
 	text-align: center;
 	background: url("../images/homepage.jpg");
 	background-size: cover;
-	color: #5354E8;
+}
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
+	text-align: center;
+	background: url("../images/homepage.jpg");
+	background-size: cover;
+	color: black;
 }
 
 #slogan {
 	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
 	text-align: center;
+	color: black;
 }
 
-ul{
-	list-style-type: none;
-}
