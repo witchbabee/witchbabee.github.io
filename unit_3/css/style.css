@@ -1,18 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Bungee+Shade|Cormorant+Garamond);
 
+background: url("../images/homepage.jpg");
+	background-size: cover;
+	
 h1 {
 	font-family: 'Bungee Shade', cursive;
 	font-size: 100px;
 	text-align: center;
-	background: url("../images/homepage.jpg");
-	background-size: cover;
 }
 p {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 30px;
 	text-align: center;
-	background: url("../images/homepage.jpg");
-	background-size: cover;
 	color: black;
 }
 
