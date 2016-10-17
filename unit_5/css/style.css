@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 100px;
 }
 
 h1, h2 {
@@ -31,6 +31,10 @@ h2 {
   padding: .8em 0;
 }
 
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
 img {
   display: block;
   margin: 0 auto;
@@ -46,6 +50,7 @@ ul {
 }
 
 footer {
+  font-family: 'Cormorant Garamond', serif;
   text-align: center;
   padding: 1em 0;
 }
