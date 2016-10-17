@@ -12,8 +12,6 @@ body {
 }
 
 header {
-  background-color: turquoise;
-  border: 1px black solid;
   padding: 20px;
 }
 
@@ -28,6 +26,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.5em;
   padding: .8em 0;
 }
@@ -38,9 +37,12 @@ img {
 }
 
 ul {
+  font-family: 'Cormorant Garamond', serif;
   list-style: none;
   margin: 0;
   padding: 0;
+  background-color: turquoise;
+  border: 1px black solid;
 }
 
 footer {
