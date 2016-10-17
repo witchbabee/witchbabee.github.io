@@ -6,13 +6,13 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 100px;
   font-family: 'Bungee Shade', cursive;
   text-align: center;
 }
 
 header {
-  padding: 100px;
+  padding: 20px;
 }
 
 h1, h2 {
