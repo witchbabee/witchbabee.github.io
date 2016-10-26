@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -14,7 +14,9 @@ h1,h2 {
 
 h1 {
 	font-size: 2em;
-  font-family: 'Bungee Shade', cursive;
+	font-family: 'Bungee Shade', cursive;
+	line-height: 1.25;
+	float: left;
 }
 
 h2 {
@@ -48,14 +50,13 @@ li {
 }
 
 nav {
-	font-size: 1.8em;
- 	float: right;
+	float: right;
 } 
 
-nav a {	
+nav a {
 	text-decoration: none;
 	color: black;
-	margin: 1.8em;
+	padding: 1em 2em;
 	display: inline-block;
 }
 
@@ -67,7 +68,7 @@ section {
 
 div {
   font-size: 1.2em;
-  width: 46%;
+  width: 50%;
   padding: 2%;
   display: inline-block;
 }
@@ -76,7 +77,11 @@ div {
   display: block;
   width: 100%;
   margin: 0;
-  background: #fffebb;
+  background: url(../images/homepage.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
 
 #about {
@@ -91,4 +96,11 @@ footer {
 	text-align: center;
 	padding: 1em 0;
   	clear: both;
+}
+.clearfix:after {
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:"";
+	clear:both;
 }
