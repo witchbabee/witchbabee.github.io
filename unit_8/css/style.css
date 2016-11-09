@@ -150,7 +150,7 @@ label{
 
 
 #lander{
-	background:url(../images/homepage.jpg) no-repeat center center scroll;
+	background: url(../images/homepage.jpg); no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
