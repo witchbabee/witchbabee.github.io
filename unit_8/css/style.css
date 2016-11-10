@@ -11,12 +11,15 @@
 
 body{
 	background-color: #201828;
-	font-size: 16px;
+	font-size: 18px;
 	position: relative;
 }
 
 header{
-	padding:0 200px;
+	/* padding:0 200px; */
+	width: 600px;
+	/* margin: auto; */
+	margin-left: 37.33%;
 }
 
 nav{
@@ -63,7 +66,7 @@ section{
 h1{
 	font-family: 'Racing Sans One', serif;
 	font-weight: normal;
-	font-size:60px;
+	font-size: 4em;
 	text-align:center;
 	color:black;
 	margin:200px 0 0;
@@ -150,11 +153,13 @@ label{
 
 
 #lander{
-	background: url(../images/homepage.jpg); no-repeat center center scroll;
+	background: url(../images/homepage.jpg);
+	no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position: right center;
 	height:750px;
 	padding:20px 0;
 }
@@ -172,7 +177,7 @@ label{
 @media screen and (max-width:1645px){
 	.looks{
 		width:48%;
-		height: 651px;
+		/* height: 651px; */
 	}
 }
 
